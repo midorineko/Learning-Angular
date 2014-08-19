@@ -11,8 +11,7 @@ describe('PhoneCat controllers', function() {
       var scope = {},
           ctrl = $controller('PhoneListCtrl', {$scope:scope});
 
-      expect(scope.phones.length).toBe(4);
-      expect(scope.name).toBe('World');
+      expect(scope.phones.length).toBe(3);
     }));
 
   });
